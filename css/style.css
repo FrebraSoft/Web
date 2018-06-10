@@ -1333,7 +1333,7 @@ ul.list-style-none li a {
   text-decoration: none;
 }
 ul.list-style-none li a:hover {
-  color: #1976d2;
+  color: #21ba45;
 }
 .dropdown-item {
   padding: 8px 1rem;
@@ -1579,17 +1579,17 @@ textarea {
   white-space: nowrap;
 }
 .sidebar-nav ul li a:hover {
-  color: #1976d2;
+  color: #21ba45;
 }
 .sidebar-nav ul li a:hover i {
-  color: #1976d2;
+  color: #21ba45;
 }
 .sidebar-nav ul li a.active {
-  color: #1976d2;
+  color: #21ba45;
   font-weight: 500;
 }
 .sidebar-nav ul li a.active i {
-  color: #1976d2;
+  color: #21ba45;
 }
 .sidebar-nav ul li ul {
   padding-left: 28px;
