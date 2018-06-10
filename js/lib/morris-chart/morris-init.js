@@ -43,7 +43,7 @@ $( function () {
 		xkey: 'y',
 		ykeys: [ 'a', 'b', 'c' ],
 		labels: [ 'Minas Gerais', 'São Paulo', 'Rio Grande do Sul' ],
-		barColors: [ '#21ba45', '#1976d2', '#4680ff' ],
+		barColors: [ '#db2828', '#21ba45', '#1976d2' ],
 		hideHover: 'auto',
 		gridLineColor: '#eef0f2',
 		resize: true

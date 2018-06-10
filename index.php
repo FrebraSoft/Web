@@ -53,7 +53,7 @@
                         <div class="card p-30">
                             <div class="media">
                                 <div class="media-left meida media-middle">
-                                    <span><i class="fa fa-arrow-down f-s-40 color-danger"></i></span>
+                                    <span><i class="fa fa-arrow-down f-s-40 color-primary"></i></span>
                                 </div>
                                 <div class="media-body media-text-right">
                                     <h2>&nbsp&nbsp&nbsp56.230,00</h2>
@@ -66,7 +66,7 @@
                         <div class="card p-30">
                             <div class="media">
                                 <div class="media-left meida media-middle">
-                                    <span><i class="fa fa-arrow-up f-s-40 color-primary"></i></span>
+                                    <span><i class="fa fa-arrow-up f-s-40 color-danger"></i></span>
                                 </div>
                                 <div class="media-body media-text-right">
                                     <h2>&nbsp&nbsp&nbsp56.230,00</h2>
