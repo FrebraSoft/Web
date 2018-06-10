@@ -43,7 +43,7 @@
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                        <li class="breadcrumb-item active">Dashboard</li>
+                        <li class="breadcrumb-item active">Painel</li>
                     </ol>
                 </div>
             </div>
@@ -113,12 +113,19 @@
 
                     <!-- column -->
                     <div class="col-lg-8">
+                    
                         <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Extra Area Chart</h4>
-                                <div id="extra-area-chart"></div>
+                            <div class="card-title">
+                                <h4>Histórico de ICMS</h4>
+                            </div>
+
+                            <div class="flot-container">
+                                <div id="morris-bar-chart" class="flot-line"></div>
                             </div>
                         </div>
+
+                        <!-- /# card -->
+
                     </div>
                     <!-- column -->
 
@@ -127,29 +134,29 @@
                         <div class="card">
                             <div class="card-body browser">
                                 
-                            <p class="f-w-600">São Paulo <span class="pull-right">85%</span></p>
+                            <p class="f-w-600">São Paulo <span class="pull-right">25%</span></p>
                                 <div class="progress ">
-                                    <div role="progressbar" style="width: 85%; height:8px;" class="progress-bar bg-danger wow animated progress-animated"> <span class="sr-only">60% Complete</span> </div>
+                                    <div role="progressbar" style="width: 25%; height:8px;" class="progress-bar bg-danger wow animated progress-animated"> <span class="sr-only">60% Complete</span> </div>
                                 </div>
 
-                                <p class="m-t-30 f-w-600">Minas Gerais<span class="pull-right">90%</span></p>
+                                <p class="m-t-30 f-w-600">Minas Gerais<span class="pull-right">30%</span></p>
                                 <div class="progress">
-                                    <div role="progressbar" style="width: 90%; height:8px;" class="progress-bar bg-info wow animated progress-animated"> <span class="sr-only">60% Complete</span> </div>
+                                    <div role="progressbar" style="width: 30%; height:8px;" class="progress-bar bg-info wow animated progress-animated"> <span class="sr-only">60% Complete</span> </div>
                                 </div>
 
-                                <p class="m-t-30 f-w-600">Rio Grande do Sul<span class="pull-right">65%</span></p>
+                                <p class="m-t-30 f-w-600">Rio Grande do Sul<span class="pull-right">15%</span></p>
                                 <div class="progress">
-                                    <div role="progressbar" style="width: 65%; height:8px;" class="progress-bar bg-success wow animated progress-animated"> <span class="sr-only">60% Complete</span> </div>
+                                    <div role="progressbar" style="width: 15%; height:8px;" class="progress-bar bg-primary wow animated progress-animated"> <span class="sr-only">60% Complete</span> </div>
                                 </div>
 
-                                <p class="m-t-30 f-w-600">Bahia<span class="pull-right">65%</span></p>
+                                <p class="m-t-30 f-w-600">Bahia<span class="pull-right">3%</span></p>
                                 <div class="progress">
-                                    <div role="progressbar" style="width: 65%; height:8px;" class="progress-bar bg-warning wow animated progress-animated"> <span class="sr-only">60% Complete</span> </div>
+                                    <div role="progressbar" style="width: 3%; height:8px;" class="progress-bar bg-warning wow animated progress-animated"> <span class="sr-only">60% Complete</span> </div>
                                 </div>
 
-								<p class="m-t-30 f-w-600">Espirito Santo<span class="pull-right">65%</span></p>
+								<p class="m-t-30 f-w-600">Espirito Santo<span class="pull-right">2%</span></p>
                                 <div class="progress m-b-30">
-                                    <div role="progressbar" style="width: 65%; height:8px;" class="progress-bar bg-success wow animated progress-animated"> <span class="sr-only">60% Complete</span> </div>
+                                    <div role="progressbar" style="width: 2%; height:8px;" class="progress-bar bg-success wow animated progress-animated"> <span class="sr-only">60% Complete</span> </div>
                                 </div>
                             </div>
                         </div>
@@ -157,276 +164,72 @@
                     <!-- column -->
                 </div>
                 <div class="row">
-					<div class="col-lg-3">
-                        <div class="card bg-dark">
-                            <div class="testimonial-widget-one p-17">
-                                <div class="testimonial-widget-one owl-carousel owl-theme">
-                                    <div class="item">
-                                        <div class="testimonial-content">
-                                            <img class="testimonial-author-img" src="images/avatar/2.jpg" alt="" />
-                                            <div class="testimonial-author">John</div>
-                                            <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
 
-                                            <div class="testimonial-text">
-                                                <i class="fa fa-quote-left"></i>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
-                                                <i class="fa fa-quote-right"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="testimonial-content">
-                                            <img class="testimonial-author-img" src="images/avatar/3.jpg" alt="" />
-                                            <div class="testimonial-author">Abraham</div>
-                                            <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
-
-                                            <div class="testimonial-text">
-                                                <i class="fa fa-quote-left"></i>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
-                                                <i class="fa fa-quote-right"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="testimonial-content">
-                                            <img class="testimonial-author-img" src="images/avatar/1.jpg" alt="" />
-                                            <div class="testimonial-author">Lincoln</div>
-                                            <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
-
-                                            <div class="testimonial-text">
-                                                <i class="fa fa-quote-left"></i>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
-                                                <i class="fa fa-quote-right"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="testimonial-content">
-                                            <img class="testimonial-author-img" src="images/avatar/4.jpg" alt="" />
-                                            <div class="testimonial-author">TYRION LANNISTER</div>
-                                            <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
-
-                                           <div class="testimonial-text">
-                                                <i class="fa fa-quote-left"></i>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
-                                                <i class="fa fa-quote-right"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="testimonial-content">
-                                            <img class="testimonial-author-img" src="images/avatar/5.jpg" alt="" />
-                                            <div class="testimonial-author">TYRION LANNISTER</div>
-                                            <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
-
-                                            <div class="testimonial-text">
-                                                <i class="fa fa-quote-left"></i>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
-                                                <i class="fa fa-quote-right"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="testimonial-content">
-                                            <img class="testimonial-author-img" src="images/avatar/6.jpg" alt="" />
-                                            <div class="testimonial-author">TYRION LANNISTER</div>
-                                            <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
-
-                                            <div class="testimonial-text">
-                                                <i class="fa fa-quote-left"></i>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
-                                                <i class="fa fa-quote-right"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
+                    <div class="col-lg-12">
                         <div class="card">
                             <div class="card-title">
-                                <h4>Recent Orders </h4>
+                                <h4>Ultimos Lançamentos </h4>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <table class="table">
                                         <thead>
                                             <tr>
-                                                <th>#</th>
-                                                <th>Name</th>
-                                                <th>Product</th>
-                                                <th>quantity</th>
-                                                <th>Status</th>
+                                                <th>Razão Social</th>
+                                                <th>CNPJ</th>
+                                                <th>Nº NFE</th>
+                                                <th>Valor Total</th>
+                                                <th>Opções</th>
                                             </tr>
                                         </thead>
                                         <tbody>
 
                                             <tr>
-                                                <td>
-                                                    <div class="round-img">
-                                                        <a href=""><img src="images/avatar/4.jpg" alt=""></a>
-                                                    </div>
-                                                </td>
-                                                <td>John Abraham</td>
-                                                <td><span>iBook</span></td>
-                                                <td><span>456 pcs</span></td>
-                                                <td><span class="badge badge-success">Done</span></td>
+                                                <td>Julio HDS Softwares</td>
+                                                <td><span>50.200.092/000-1.21</span></td>
+                                                <td><span>89982220019292</span></td>
+                                                <td><span class="badge badge-warning">R$ 390.30,90</span></td>
+                                                <td><button class="btn btn-success"><i class='fa fa-search'></i></button></td>
                                             </tr>
+
                                             <tr>
-                                                <td>
-                                                    <div class="round-img">
-                                                        <a href=""><img src="images/avatar/2.jpg" alt=""></a>
-                                                    </div>
-                                                </td>
-                                                <td>John Abraham</td>
-                                                <td><span>iPhone</span></td>
-                                                <td><span>456 pcs</span></td>
-                                                <td><span class="badge badge-success">Done</span></td>
+                                                <td>Julio HDS Softwares</td>
+                                                <td><span>50.200.092/000-1.21</span></td>
+                                                <td><span>89982220019292</span></td>
+                                                <td><span class="badge badge-warning">R$ 390.30,90</span></td>
+                                                <td><button class="btn btn-success"><i class='fa fa-search'></i></button></td>
                                             </tr>
+
                                             <tr>
-                                                <td>
-                                                    <div class="round-img">
-                                                        <a href=""><img src="images/avatar/3.jpg" alt=""></a>
-                                                    </div>
-                                                </td>
-                                                <td>John Abraham</td>
-                                                <td><span>iMac</span></td>
-                                                <td><span>456 pcs</span></td>
-                                                <td><span class="badge badge-warning">Pending</span></td>
+                                                <td>Julio HDS Softwares</td>
+                                                <td><span>50.200.092/000-1.21</span></td>
+                                                <td><span>89982220019292</span></td>
+                                                <td><span class="badge badge-warning">R$ 390.30,90</span></td>
+                                                <td><button class="btn btn-success"><i class='fa fa-search'></i></button></td>
                                             </tr>
+
                                             <tr>
-                                                <td>
-                                                    <div class="round-img">
-                                                        <a href=""><img src="images/avatar/4.jpg" alt=""></a>
-                                                    </div>
-                                                </td>
-                                                <td>John Abraham</td>
-                                                <td><span>iBook</span></td>
-                                                <td><span>456 pcs</span></td>
-                                                <td><span class="badge badge-success">Done</span></td>
+                                                <td>Julio HDS Softwares</td>
+                                                <td><span>50.200.092/000-1.21</span></td>
+                                                <td><span>89982220019292</span></td>
+                                                <td><span class="badge badge-warning">R$ 390.30,90</span></td>
+                                                <td><button class="btn btn-success"><i class='fa fa-search'></i></button></td>
                                             </tr>
+
+                                            <tr>
+                                                <td>Julio HDS Softwares</td>
+                                                <td><span>50.200.092/000-1.21</span></td>
+                                                <td><span>89982220019292</span></td>
+                                                <td><span class="badge badge-warning">R$ 390.30,90</span></td>
+                                                <td><button class="btn btn-success"><i class='fa fa-search'></i></button></td>
+                                            </tr>
+                                            
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-
-                <div class="row">
-					<div class="col-lg-8">
-						<div class="row">
-						<div class="col-lg-6">
-							<div class="card">
-								<div class="card-title">
-									<h4>Message </h4>
-								</div>
-								<div class="recent-comment">
-									<div class="media">
-										<div class="media-left">
-											<a href="#"><img alt="..." src="images/avatar/1.jpg" class="media-object"></a>
-										</div>
-										<div class="media-body">
-											<h4 class="media-heading">john doe</h4>
-											<p>Cras sit amet nibh libero, in gravida nulla. </p>
-											<p class="comment-date">October 21, 2018</p>
-										</div>
-									</div>
-									<div class="media">
-										<div class="media-left">
-											<a href="#"><img alt="..." src="images/avatar/1.jpg" class="media-object"></a>
-										</div>
-										<div class="media-body">
-											<h4 class="media-heading">john doe</h4>
-											<p>Cras sit amet nibh libero, in gravida nulla. </p>
-											<p class="comment-date">October 21, 2018</p>
-										</div>
-									</div>
-
-									<div class="media">
-										<div class="media-left">
-											<a href="#"><img alt="..." src="images/avatar/1.jpg" class="media-object"></a>
-										</div>
-										<div class="media-body">
-											<h4 class="media-heading">john doe</h4>
-											<p>Cras sit amet nibh libero, in gravida nulla. </p>
-											<p class="comment-date">October 21, 2018</p>
-										</div>
-									</div>
-
-									<div class="media no-border">
-										<div class="media-left">
-											<a href="#"><img alt="..." src="images/avatar/1.jpg" class="media-object"></a>
-										</div>
-										<div class="media-body">
-											<h4 class="media-heading">Mr. Michael</h4>
-											<p>Cras sit amet nibh libero, in gravida nulla. </p>
-											<div class="comment-date">October 21, 2018</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- /# card -->
-						</div>
-						<!-- /# column -->
-						<div class="col-lg-6">
-							<div class="card">
-								<div class="card-body">
-									<div class="year-calendar"></div>
-								</div>
-							</div>
-						</div>
-
-
-						</div>
-					</div>
-
-				    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Todo</h4>
-                                <div class="card-content">
-                                    <div class="todo-list">
-                                        <div class="tdl-holder">
-                                            <div class="tdl-content">
-                                                <ul>
-                                                    <li>
-                                                        <label>
-															<input type="checkbox"><i class="bg-primary"></i><span>Build an angular app</span>
-															<a href='#' class="ti-close"></a>
-														</label>
-                                                    </li>
-                                                    <li>
-                                                        <label>
-															<input type="checkbox" checked><i class="bg-success"></i><span>Creating component page</span>
-															<a href='#' class="ti-close"></a>
-														</label>
-                                                    </li>
-                                                    <li>
-                                                        <label>
-															<input type="checkbox" checked><i class="bg-warning"></i><span>Follow back those who follow you</span>
-															<a href='#' class="ti-close"></a>
-														</label>
-                                                    </li>
-                                                    <li>
-                                                        <label>
-															<input type="checkbox" checked><i class="bg-danger"></i><span>Design One page theme</span>
-															<a href='#' class="ti-close"></a>
-														</label>
-                                                    </li>
-
-                                                    <li>
-                                                        <label>
-															<input type="checkbox" checked><i class="bg-success"></i><span>Creating component page</span>
-															<a href='#' class="ti-close"></a>
-														</label>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <input type="text" class="tdl-new form-control" placeholder="Type here">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
 
 
@@ -474,7 +277,21 @@
     <script src="js/lib/owl-carousel/owl.carousel-init.js"></script>
 
     <!-- scripit init-->
+    <!--  flot-chart js -->
+    <script src="js/lib/flot-chart/excanvas.min.js"></script>
+    <script src="js/lib/flot-chart/jquery.flot.js"></script>
+    <script src="js/lib/flot-chart/jquery.flot.pie.js"></script>
+    <script src="js/lib/flot-chart/jquery.flot.time.js"></script>
+    <script src="js/lib/flot-chart/jquery.flot.stack.js"></script>
+    <script src="js/lib/flot-chart/jquery.flot.resize.js"></script>
+    <script src="js/lib/flot-chart/jquery.flot.crosshair.js"></script>
+    <script src="js/lib/flot-chart/curvedLines.js"></script>
+    <script src="js/lib/flot-chart/flot-tooltip/jquery.flot.tooltip.min.js"></script>
+    <script src="js/lib/flot-chart/flot-chart-init.js"></script>
 
+    <script src="js/lib/morris-chart/morris.js"></script>
+    <script src="js/lib/morris-chart/morris-init.js"></script>
+    
     <script src="js/scripts.js"></script>
 
 </body>

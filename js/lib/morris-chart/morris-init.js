@@ -5,44 +5,44 @@ $( function () {
 	Morris.Bar( {
 		element: 'morris-bar-chart',
 		data: [ {
-			y: '2006',
-			a: 100,
-			b: 90,
-			c: 60
+			y: 'NOVEMBRO',
+			a: 38,
+			b: 20,
+			c: 12
         }, {
-			y: '2007',
-			a: 75,
-			b: 65,
-			c: 40
+			y: 'DEZEMBRO',
+			a: 45,
+			b: 25,
+			c: 10
         }, {
-			y: '2008',
+			y: 'JANEIRO',
+			a: 30,
+			b: 25,
+			c: 18
+        }, {
+			y: 'FEVEREIRO',
+			a: 25,
+			b: 23,
+			c: 16
+        }, {
+			y: 'MARÇO',
 			a: 50,
 			b: 40,
 			c: 30
         }, {
-			y: '2009',
-			a: 75,
-			b: 65,
-			c: 40
+			y: 'ABRIL',
+			a: 35,
+			b: 30,
+			c: 10
         }, {
-			y: '2010',
-			a: 50,
-			b: 40,
-			c: 30
-        }, {
-			y: '2011',
-			a: 75,
-			b: 65,
-			c: 40
-        }, {
-			y: '2012',
-			a: 100,
-			b: 90,
-			c: 40
+			y: 'MAIO',
+			a: 22,
+			b: 20,
+			c: 10
         } ],
 		xkey: 'y',
 		ykeys: [ 'a', 'b', 'c' ],
-		labels: [ 'A', 'B', 'C' ],
+		labels: [ 'Minas Gerais', 'São Paulo', 'Rio Grande do Sul' ],
 		barColors: [ '#26DAD2', '#fc6180', '#4680ff' ],
 		hideHover: 'auto',
 		gridLineColor: '#eef0f2',
@@ -152,7 +152,7 @@ $( function () {
 				windows: 40,
 				mac: 120
         }, {
-				period: '2006',
+				period: '02/2018',
 				smartphone: 25,
 				windows: 80,
 				mac: 40
