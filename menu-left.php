@@ -8,6 +8,25 @@
                         <li> 
                             <a href="index.php" aria-expanded="false"><i class="fa fa-tachometer"></i><span style="vertical-align: text-top;">Painel de Indicativos</span></a>
                         </li>
+                        <li> 
+                            <a href="client.php" aria-expanded="false"><i class="fa fa-users"></i>Clientes</span></a>
+                        </li>
+                        <li> 
+                            <a href="produtos.php" aria-expanded="false"><i class="fa fa-product-hunt"></i>Produtos</span></a>
+                        </li>
+                        <li> 
+                            <a href="nfe-emit.php" aria-expanded="false"><i class="fa fa-copy"></i>Nfes-Emitidas</span></a>
+                        </li>
+                        <li> 
+                            <a href="nfe-rec.php" aria-expanded="false"><i class="fa fa-file"></i>Nfes-Recebidas</span></a>
+                        </li>
+                        <li> 
+                            <a href="users.php" aria-expanded="false"><i class="fa fa-user-circle"></i>Usuarios</span></a>
+                        </li>
+                        <li> 
+                            <a href="login.php" aria-expanded="false"><i class="fa fa-arrow-left"></i>Sair</span></a>
+                        </li>
+
                         <li class="nav-label">Apps</li>
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-envelope"></i><span class="hide-menu">Email</span></a>
                             <ul aria-expanded="false" class="collapse">
