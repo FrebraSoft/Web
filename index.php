@@ -39,13 +39,8 @@
             <!-- Bread crumb -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Painel de indicativos</h3> </div>
-                <div class="col-md-7 align-self-center">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                        <li class="breadcrumb-item active">Painel</li>
-                    </ol>
-                </div>
+                    <h3 class="" style="color: greey;">Home > Visão Geral</h3> </div>
+
             </div>
             <!-- End Bread crumb -->
 
@@ -116,7 +111,7 @@
                     
                         <div class="card">
                             <div class="card-title">
-                                <h4>Histórico de ICMS</h4>
+                                <center><h3>Histórico de ICMS</h3></center>
                             </div>
 
                             <div class="flot-container">
@@ -237,7 +232,9 @@
             </div>
             <!-- End Container fluid  -->
             <!-- footer -->
-            <footer class="footer"> © 2018 All rights reserved. Template designed by <a href="https://colorlib.com">Colorlib</a></footer>
+            <?php
+                include('footer.php')
+            ?>
             <!-- End footer -->
         </div>
         <!-- End Page wrapper  -->

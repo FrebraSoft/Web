@@ -821,11 +821,11 @@ h6.h1 {
 -------------------*/
 .color-primary,
 .text-primary {
-  color: #4680ff;
+  color: #1976d2;
 }
 .color-success,
 .text-success {
-  color: #26dad2;
+  color: #21ba45;
 }
 .color-info,
 .text-info {
@@ -833,7 +833,7 @@ h6.h1 {
 }
 .color-danger,
 .text-danger {
-  color: #fc6180;
+  color: #db2828;
 }
 .color-warning,
 .text-warning {
@@ -1634,15 +1634,15 @@ textarea {
 .sidebar-nav > ul > li > a.active {
   font-weight: 400;
   background: #fff;
-  color: #1976d2;
+  color: #21ba45;
 }
 .sidebar-nav > ul > li.active > a {
-  color: #1976d2;
+  color: #21ba45;
   font-weight: 500;
   border-left: 3px solid #fff;
 }
 .sidebar-nav > ul > li.active > a i {
-  color: #1976d2;
+  color: #21ba45;
 }
 .sidebar-nav .has-arrow {
   position: relative;

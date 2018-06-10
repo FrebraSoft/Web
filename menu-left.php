@@ -3,10 +3,11 @@
             <div class="scroll-sidebar">
                 <!-- Sidebar navigation-->
                 <nav class="sidebar-nav">
+                    <br>
                     <ul id="sidebarnav">
                         <li class="nav-devider"></li>
                         <li> 
-                            <a href="index.php" aria-expanded="false"><i class="fa fa-tachometer"></i><span style="vertical-align: text-top;">Painel de Indicativos</span></a>
+                            <a href="index.php" aria-expanded="false"><i class="fa fa-tachometer"></i><span style="vertical-align: text-top;">Visão Geral</span></a>
                         </li>
                         <li> 
                             <a href="client.php" aria-expanded="false"><i class="fa fa-users"></i>Clientes</span></a>
