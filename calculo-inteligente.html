@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <title>Calculo Produto</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+
+    <link href="css/lib/calendar2/semantic.ui.min.css" rel="stylesheet">
+    <link href="css/lib/calendar2/pignose.calendar.min.css" rel="stylesheet">
+    <link href="css/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="css/lib/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="css/helper.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:** -->
+    <!--[if lt IE 9]>
+        <script src="https:**oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https:**oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="fix-header fix-sidebar">
+    <!-- Preloader - style you can find in spinners.css -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
+    </div>
+    <!-- Main wrapper  -->
+    <div id="main-wrapper">
+        <!-- header header  -->
+        <div class="header">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <!-- Logo -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon -->
+                        <b><img src="images/logo_febrasoft.png" alt="homepage" style="width: 150px;" class="dark-logo" /></b>
+                        <!--End Logo icon -->
+                        <!-- Logo text -->
+                        <!-- <span><img src="images/logo-text2.png" alt="homepage" class="dark-logo" /></span> -->
+                    </a>
+                </div>
+                <!-- End Logo -->
+                <div class="navbar-collapse">
+                    <!-- toggle and nav items -->
+                    <ul class="navbar-nav mr-auto mt-md-0">
+                        <!-- This is  -->
+                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up text-muted  " href="javascript:void(0)"><i class="mdi mdi-menu"></i></a> </li>
+
+                    </ul>
+                    <!-- User profile and search -->
+                    <ul class="navbar-nav my-lg-0">
+
+                        <!-- Search -->
+                        <li class="nav-item hidden-sm-down search-box">
+                            <a class="nav-link hidden-sm-down text-muted  " href="javascript:void(0)"><i class="ti-search"></i></a>
+                            <form class="app-search">
+                                <input type="text" class="form-control" placeholder="Search here"> <a class="srh-btn"><i class="ti-close"></i></a>
+                            </form>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- End header header -->
+        <!-- Left Sidebar  -->
+        <div class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <br>
+                    <ul id="sidebarnav">
+                        <li class="nav-devider"></li>
+                        <li>
+                            <a href="index.html" aria-expanded="false"><i class="fa fa-tachometer"></i><span style="vertical-align: text-top;">Visão Geral</span></a>
+                        </li>
+                        <li>
+                            <a href="client.html" aria-expanded="false"><i class="fa fa-users"></i>Clientes</span></a>
+                        </li>
+                        <li>
+                            <a href="produtos.html" aria-expanded="false"><i class="fa fa-product-hunt"></i>Produtos</span></a>
+                        </li>
+                        <li>
+                            <a href="nfe-emit.html" aria-expanded="false"><i class="fa fa-copy"></i>NFe-Emitidas</span></a>
+                        </li>
+                        <li>
+                            <a href="nfe-rec.html" aria-expanded="false"><i class="fa fa-file"></i>NFe-Recebidas</span></a>
+                        </li>
+                        <li>
+                            <a href="users.html" aria-expanded="false"><i class="fa fa-user-circle"></i>Usuarios</span></a>
+                        </li>
+                        <li>
+                            <a href="login.html" aria-expanded="false"><i class="fa fa-arrow-left"></i>Sair</span></a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </div>
+
+        <!-- End Left Sidebar  -->
+        <!-- Page wrapper  -->
+        <div class="page-wrapper">
+            <!-- Bread crumb -->
+            <div class="row page-titles">
+                <div class="col-md-5 align-self-center">
+                    <h3 class="" style="color: greey;">Calculo Inteligente</h3>
+                </div>
+                <div class="col-md-7 align-self-center">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                        <li class="breadcrumb-item active">Calculo Produto</li>
+                    </ol>
+                </div>
+            </div>
+            <!-- End Bread crumb -->
+            <!-- Container fluid  -->
+            <div class="container-fluid" style="margin-bottom: -40px;">
+
+                <div class="row">
+
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-title">
+
+                            </div>
+                            <div class="card-body">
+                                <div class="table">
+                                    <ul class="mega-dropdown-menu row">
+                                        <li class="col-lg-3  m-b-30">
+                                            <!-- Contact -->
+                                            <form>
+                                                
+                                                <h2 style="color: red;">Valor Compra</h2>
+                                                <input class="form-control" id="valorCompra"  style="border-color: red; border-width: 2px;" value="R$ 100,00">
+                                                <h2 style="color: black;">ICMS Compra</h2>
+                                                <input class="form-control" id="icmsCompra"   style="border-color: black; border-width: 2px;" value=" 18,00 %">
+
+                                            </form>
+                                        </li>
+
+                                        <li class="col-lg-6  m-b-60">
+                                            
+                                            <!-- Contact -->
+                                            <form>
+                                                <h2 style="color:blue; ">Valor Real</h2>
+                                                <input class="form-control" id="valorReal"   style="width: 230px; border-color: rgb(7, 7, 170); border-width: 2px;" value="">
+                                                <h2 style="color: green;">Crédito ICMS</h2>
+                                                <input class="form-control" id="creditoICMS"   style="width: 230px; border-color: green; border-width: 2px;" value="">
+
+
+                                            </form>
+                                        </li>
+
+                                        <li class="col-lg-3  m-b-30">
+                                            <br><br>
+                                            <h4 class="m-b-20">LUCRO ESPERADO (%):</h4>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Percentual Lucro" id="percentualLucroEsperado" value="5">
+                                            </div>
+                                            <button class="btn btn-success" id="btnCalcularLucro" style="width: 150px; background-color: green; border-color: black;">Calcular</button>
+
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <h4 class="m-b-20">Adicional Financeiro:</h4>
+                                <div class="col-md-12">
+                                    <div class="row">
+
+                                        <div class="col-md-3">
+
+                                            <div class="form-group">
+                                                <h6 class="">Taxa de Emprestimo (%)</h6>
+                                                <input type="text" class="form-control" id="taxaEmprestimo" value="0,00">
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-md-2">
+                                            <h6 class="">Prazo Compra (dd)</h6>
+                                            <input type="text" class="form-control" id="prazoCompra" value="0">
+                                        </div>
+
+                                        <div class="col-md-2">
+                                            <h6 class="">Prazo Venda (dd)</h6>
+                                            <input type="text" class="form-control" id="prazoVenda" value="0">
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <h6 class="">Tempo Intenação (dd)</h6>
+                                            <input type="text" class="form-control" id="tempoInternacao" value="0">
+                                        </div>
+
+                                        <div class="col-md-2">
+                                            <h6 class="">Valor Adc. Fin</h6>
+                                            <input type="text" class="form-control" id="adicionalFinanceiro" value="0,00">
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div id="tabela-desconto" class="col-lg-6" style="display: none;">
+                                    <center style="margin-left: 30%;">
+                                        <h2>Descontos:</h2>
+                                    </center>
+                                    <div class="table" dysp style="margin-left: 50%;">
+                                        <center>
+                                            <table class="table" style="margin-right: 90px;">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Valor Venda</th>
+                                                        <th>
+                                                            <span id="valorVenda"></span>
+                                                        </th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Lucro</td>
+                                                        <td><span id="lucro"></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>ICMS Destino (%)</td>
+                                                        <td><input class="form-control" id="icmsDestino" style="text-align: right; width: 80px; float: right;" value=" 7,00"></td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>Valor ICMS</td>
+                                                        <td><span id="valorICMSDestino"></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Crédito ICMS Restante</td>
+                                                        <td><span id="creditoICMSRestante"></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Valor ICMS a Pagar</td>
+                                                        <td><strong><span id="valorICMSDestinoPagar"></span></strong></td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>PIS (0,65 %)</td>
+                                                        <td><strong><span id="valorPIS"></span></strong></td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>CONFINS (3,00 %)</td>
+                                                        <td><strong><span id="valorCOFINS"></span></strong></td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>Contr Social (1,08%)</td>
+                                                        <td><strong><span id="valorContrSocial"></span></strong></td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>IRPJ (1,32%)</td>
+                                                        <td><strong><span id="IRPJ"></span></strong></td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </center>
+
+                                        <center>
+                                            <div class="col-md-12">
+                                                <br>
+                                                <h1 style="color: black;">Resultado Final:</h1>
+                                                <span id="img"></span>
+                                                <h2>Lucro Bruto: <span id="lucroBrutoRS"></span> (<span id="lucroBrutoPerc"></span>)</h2>
+                                            </div>
+                                        </center>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- End PAge Content -->
+            </div>
+            <!-- End Container fluid  -->
+            <!-- footer -->
+            <footer class="footer"> © 2018 All rights reserved. Template designed by <a href="https://colorlib.com">Colorlib</a></footer>
+            <!-- End footer -->
+        </div>
+        <!-- End Page wrapper  -->
+    </div>
+    <!-- End Wrapper -->
+    <!-- All Jquery -->
+    <script src="js/lib/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="js/lib/bootstrap/js/popper.min.js"></script>
+    <script src="js/lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="js/jquery.slimscroll.js"></script>
+    <!--Menu sidebar -->
+    <script src="js/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="js/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <!--Custom JavaScript -->
+    <!-- Amchart -->
+    <script src="js/lib/morris-chart/raphael-min.js"></script>
+    <script src="js/lib/morris-chart/morris.js"></script>
+    <script src="js/lib/morris-chart/dashboard1-init.js"></script>
+
+
+    <script src="js/lib/calendar-2/moment.latest.min.js"></script>
+    <!-- scripit init-->
+    <script src="js/lib/calendar-2/semantic.ui.min.js"></script>
+    <!-- scripit init-->
+    <script src="js/lib/calendar-2/prism.min.js"></script>
+    <!-- scripit init-->
+    <script src="js/lib/calendar-2/pignose.calendar.min.js"></script>
+    <!-- scripit init-->
+    <script src="js/lib/calendar-2/pignose.init.js"></script>
+
+    <script src="js/lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/lib/owl-carousel/owl.carousel-init.js"></script>
+
+    <!-- scripit init-->
+    <!--  flot-chart js -->
+    <script src="js/lib/flot-chart/excanvas.min.js"></script>
+    <script src="js/lib/flot-chart/jquery.flot.js"></script>
+    <script src="js/lib/flot-chart/jquery.flot.pie.js"></script>
+    <script src="js/lib/flot-chart/jquery.flot.time.js"></script>
+    <script src="js/lib/flot-chart/jquery.flot.stack.js"></script>
+    <script src="js/lib/flot-chart/jquery.flot.resize.js"></script>
+    <script src="js/lib/flot-chart/jquery.flot.crosshair.js"></script>
+    <script src="js/lib/flot-chart/curvedLines.js"></script>
+    <script src="js/lib/flot-chart/flot-tooltip/jquery.flot.tooltip.min.js"></script>
+    <script src="js/lib/flot-chart/flot-chart-init.js"></script>
+
+    <script src="js/lib/morris-chart/morris.js"></script>
+    <script src="js/lib/morris-chart/morris-init.js"></script>
+
+    <script src="js/scripts.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            $('input').keyup(function ()
+            {
+                doCalculo();
+
+                $("#tabela-desconto").show('slow');
+            });
+        });
+
+        $("#btnCalcularLucro").click(function () {
+            doCalculo();
+
+            $("#tabela-desconto").show('slow');
+        });
+
+        function doCalculo() {
+            var valorCompra = fixValores($('#valorCompra').val());
+            var icmsCompra = fixValores($('#icmsCompra').val()) / 100;
+            var lucroEsperado = fixValores($('#percentualLucroEsperado').val()) / 100;
+            var icmsDestino = fixValores($('#icmsDestino').val()) / 100;
+
+            var valorCredito = valorCompra * icmsCompra;
+            var valorReal = valorCompra - valorCredito;
+            var valorVenda = valorCompra + (valorCompra * lucroEsperado);
+            var valorICMSDestino = valorVenda * icmsDestino;
+            var creditoICMSRestante = (valorCredito - valorICMSDestino);
+            var lucro = valorVenda - valorCompra;
+
+            var ICMSPagar = 0;
+
+            if (creditoICMSRestante < 0) {
+                ICMSPagar = creditoICMSRestante;
+
+                creditoICMSRestante = 0;
+            }
+
+            var PIS = (valorVenda * 0.0065);
+            var COFINS = (valorVenda * 0.03);
+            var contrSocial = (valorVenda * 0.0108);
+            var IRPJ = (valorVenda * 0.0132);
+
+            $('#valorReal').val(fixString(valorReal, 1));
+            $('#creditoICMS').val(fixString(valorCredito, 1));
+            $('#valorVenda').text(fixString(valorVenda, 1));
+            $('#valorICMSDestino').text(fixString((valorICMSDestino * -1), 1));
+            $('#valorICMSDestinoPagar').text(fixString((ICMSPagar), 1));
+            $('#creditoICMSRestante').text(fixString((creditoICMSRestante * -1), 1))
+            $('#valorPIS').text(fixString((PIS * -1), 1));
+            $('#valorCOFINS').text(fixString((COFINS * -1), 1));
+            $('#valorContrSocial').text(fixString((contrSocial * -1), 1));
+            $('#IRPJ').text(fixString((IRPJ * -1), 1));
+            $('#lucro').text(fixString((lucro), 1));
+
+            var taxaEmprestimo = fixValores($('#taxaEmprestimo').val());
+
+            var valorAdicFinanceiro = 0;
+
+            if (taxaEmprestimo > 0)
+            {
+                var prazoCompra = fixValores($('#prazoCompra').val());
+                var prazoVenda = fixValores($('#prazoVenda').val());
+                var tempoInternacao = fixValores($('#tempoInternacao').val());
+
+                console.log(prazoCompra);
+                console.log(prazoVenda);
+                console.log(tempoInternacao);
+
+                var coeficienteJuros = (taxaEmprestimo / 30).toFixed(2);
+
+                var x = (prazoCompra - (tempoInternacao) - prazoVenda);
+
+                console.log(coeficienteJuros);
+                console.log(x);
+
+                var jurosProporcional = (x * coeficienteJuros) / 100;
+
+                console.log(jurosProporcional);
+
+                valorAdicFinanceiro = (valorCompra * (jurosProporcional)) * -1;
+
+                if (valorAdicFinanceiro < 0 || isNaN(valorAdicFinanceiro))
+                {
+                    valorAdicFinanceiro = 0;
+                }
+
+                $('#adicionalFinanceiro').val(fixString((valorAdicFinanceiro * -1), 1));
+            }
+
+            var soma = lucro + ICMSPagar + (PIS * -1) + (COFINS * -1) + (contrSocial * -1) + (IRPJ * -1) + (creditoICMSRestante * -1) + (valorAdicFinanceiro * -1);
+
+            $('#lucroBrutoRS').text(fixString(soma, 1));
+            $('#lucroBrutoPerc').text(fixString((soma / valorCompra) * 100, 2));
+
+            var img = "<img src=\"images/rosto_red.png\" style=\"width: 80px;\">";
+
+            if (soma > 0)
+            {
+                img = "<img src=\"images/rosto_green.png\" style=\"width: 80px;\">";
+            }
+
+            $('#img').html(img);
+        }
+
+        function fixValores(valor) {
+            return parseFloat(valor.replace('R$ ', '').replace('R$', '').replace('%', '').replace(' ', '').replace(',', '.'))
+        }
+
+        function fixString(valor, tipo) {
+            var retorno = "";
+
+            if (tipo == 1) {
+                retorno = "R$ " + valor.toFixed(2).toString().replace('.', ',');
+            }
+            else if (tipo == 2) {
+                var x = (valor).toFixed(2).toString().replace('.', ',');
+
+                retorno = x + "%";
+            }
+
+            return retorno;
+        }
+
+    </script>
+</body>
+
+</html>
