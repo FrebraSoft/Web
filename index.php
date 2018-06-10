@@ -126,27 +126,28 @@
                     <div class="col-lg-4">
                         <div class="card">
                             <div class="card-body browser">
-                                <p class="f-w-600">iMacs <span class="pull-right">85%</span></p>
+                                
+                            <p class="f-w-600">São Paulo <span class="pull-right">85%</span></p>
                                 <div class="progress ">
                                     <div role="progressbar" style="width: 85%; height:8px;" class="progress-bar bg-danger wow animated progress-animated"> <span class="sr-only">60% Complete</span> </div>
                                 </div>
 
-                                <p class="m-t-30 f-w-600">iBooks<span class="pull-right">90%</span></p>
+                                <p class="m-t-30 f-w-600">Minas Gerais<span class="pull-right">90%</span></p>
                                 <div class="progress">
                                     <div role="progressbar" style="width: 90%; height:8px;" class="progress-bar bg-info wow animated progress-animated"> <span class="sr-only">60% Complete</span> </div>
                                 </div>
 
-                                <p class="m-t-30 f-w-600">iPhone<span class="pull-right">65%</span></p>
+                                <p class="m-t-30 f-w-600">Rio Grande do Sul<span class="pull-right">65%</span></p>
                                 <div class="progress">
                                     <div role="progressbar" style="width: 65%; height:8px;" class="progress-bar bg-success wow animated progress-animated"> <span class="sr-only">60% Complete</span> </div>
                                 </div>
 
-                                <p class="m-t-30 f-w-600">Samsung<span class="pull-right">65%</span></p>
+                                <p class="m-t-30 f-w-600">Bahia<span class="pull-right">65%</span></p>
                                 <div class="progress">
                                     <div role="progressbar" style="width: 65%; height:8px;" class="progress-bar bg-warning wow animated progress-animated"> <span class="sr-only">60% Complete</span> </div>
                                 </div>
 
-								<p class="m-t-30 f-w-600">android<span class="pull-right">65%</span></p>
+								<p class="m-t-30 f-w-600">Espirito Santo<span class="pull-right">65%</span></p>
                                 <div class="progress m-b-30">
                                     <div role="progressbar" style="width: 65%; height:8px;" class="progress-bar bg-success wow animated progress-animated"> <span class="sr-only">60% Complete</span> </div>
                                 </div>
