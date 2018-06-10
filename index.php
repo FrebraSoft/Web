@@ -88,7 +88,7 @@
                                 </div>
                                 <div class="media-body media-text-right">
                                     <h2>&nbsp&nbsp&nbsp56.230,00</h2>
-                                    <p class="m-b-0">ICMS A PAGAR</p>
+                                    <p class="m-b-0">SALDO CARTEIRA</p>
                                 </div>
                             </div>
                         </div>
